@@ -1,0 +1,393 @@
+<style>
+    .orbital-quantum, .noble-gas, 
+    .electron-configuration, 
+    .unicode-superscript {
+        width: 80%; 
+        margin-left: auto; 
+        margin-right: auto;
+    }
+    
+    .noble-gas {
+        width: 100%; 
+    }
+    
+    .orbital-quantum th,
+    .noble-gas th, 
+    .unicode-superscript th {
+        border-bottom: 3px solid #65A1CF;
+    }
+    
+    .electron-configuration td, 
+    .unicode-superscript td{
+        border-bottom: 1px solid #65A1CF;
+    }
+    
+    .electron-configuration .description {
+        color: #006CA9;
+        font-weight: bold;
+    }
+    
+    .electron-configuration .content {
+        text-align: center;        
+    }
+    
+    .orbital-quantum .center, 
+    .noble-gas .center, 
+    .unicode-superscript td {
+        text-align: center;
+    }
+    
+    .orbital-quantum .spectroscopic{
+        padding-left: 9%;
+    }
+    
+    .unicode-superscript caption {
+        font-weight: bold;
+        color: #8FC7ED;
+    }
+    
+    .credit {
+        font-size: .8em;
+        text-align: center;
+    }
+    
+</style>
+<p>Element, as chemist knows, is substance that cannot be chemically interconverted or broken down into simpler substances 
+and are primary constituents of matter. Ancient simply identify them as earth, water, air and fire. Natural abundance of iron, gold, silver, lead, 
+tin, mercury, sulfur and carbon, are the very first known elements, used to build civilization. Other elements are hiding in mixture 
+or compounds, and could not easily extracted or purified them. Early chemist classified them by its properties and characteristic,
+subsequently discover many more ( and the way to purify and extract, even now synthesis them ), with nearly all of the naturally-occuring elements becoming known
+by 1900.</p> 
+<p>One man, sheds light on, <strong>to sort</strong> known elements at that time with numbers in a table-ordered. 
+<strong>Dmitri Ivanovich Mendeleev</strong> ( Russian, Дми́трий Ива́нович Менделе́ев, 1834-1907 ), in 1869, published his formulation to correct the properties of 
+some already discovered elements and also to predict the properties of elements yet to be discovered. This work, as we know it as, the <strong>Periodic Table of Elements</strong>.
+</p>
+<div>
+    <img src="media/periodic_table.svg" style="width: 99%;">
+    <div class="credit">
+    <span>Source: <a href="http://en.wikipedia.org/wiki/Periodic_table">wikipedia</a></span>
+    </div>
+</div>
+<div>
+    <h3>Periodicity Of Elements</h3>
+    The essential model, or theory to understand element's chemical properties came from the early birth of quantum mechanics, known as electron configuration.
+    Element is modeled as <em>atom</em> with its "number", the <em>atomic number</em> <strong>( Z )</strong> that contains number of protons, therefore same number of electrons in ground state. 
+    And the periodicity of elements might be explained by the <em>electron structure of the atom</em>, and best explained in the quantum theory.<br>
+    <br>
+    An electron in the atom can now be completely specified by the four quantum members:<br>
+    <blockquote>
+    n&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;the principal quantum number( or simply, <em>quantum number</em> ), e.g: 1,2,3&#133;<br>
+    ℓ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=&nbsp;the orbital quantum number( or simply, <em>angular number</em> ), e.g: 0,1,2&#133;<br>
+    m<sub>l</sub>&nbsp;&nbsp;=&nbsp;the orbital magnetic quantum number( or simply, <em>magnetic number</em> ), e.g: -2,-1,0,+1,+2&#133;<br>
+    m<sub>s</sub>&nbsp;&nbsp;=&nbsp;the spin magnetic quantum number( or simply, <em>spin number</em> ), e.g: &#x207A;&#189; or &#x207B;&#189;.<br>
+    </blockquote>    
+    The four quantum members designate <strong>specific levels, orbitals, magnetics, and spins of electrons</strong>. This explains that they are describing 
+    in detail the characteristic of the electrons in the atom. The <em>principal quantum number n</em> describes the energy level of the electron shell. When value of 
+    the n is higher, the number of principal electron shell is greater, means a greater distance between the farthes electron and its nucleus. 
+    As a result, size and radius of the atom increases. The <em>angular quantum number l</em> describes the shape of the orbital. <strong>Each quantum number</strong> is composed of 
+    one or more subshells( orbital ). The detail of possible subshells are shown in following table:<br>
+    <br>
+    <table class="orbital-quantum">
+        <thead>
+            <tr>
+                <th>Orbital label</th>
+                <th><i>&nbsp;ℓ&nbsp;</i></th>
+                <th>Max electrons</th>
+                <th>Spectroscopic Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center">s</td>
+                <td class="center"><i>0</i></td>
+                <td class="center">2</td>
+                <td class="spectroscopic">Sharp</td>
+            </tr>
+            <tr>
+                <td class="center">p</td>
+                <td class="center"><i>1</i></td>
+                <td class="center">6</td>
+                <td class="spectroscopic">Principal</td>
+            </tr>
+            <tr>
+                <td class="center">d</td>
+                <td class="center"><i>2</i></td>
+                <td class="center">10</td>
+                <td class="spectroscopic">Diffuse</td>
+            </tr>
+            <tr>
+                <td class="center">f</td>
+                <td class="center"><i>3</i></td>
+                <td class="center">14</td>
+                <td class="spectroscopic">Fundamental</td>
+            </tr>
+            <tr>
+                <td class="center">g</td>
+                <td class="center"><i>4</i></td>
+                <td class="center">18</td>
+                <td class="spectroscopic"><em>( simply in alphabet after f )</em></td>
+            </tr>
+            <tr>
+                <td class="center">h</td>
+                <td class="center"><i>5</i></td>
+                <td class="center">22</td>
+                <td class="spectroscopic">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="center">i</td>
+                <td class="center"><i>6</i></td>
+                <td class="center">26</td>
+                <td class="spectroscopic">&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+    The <em>magnetic quantum number</em> describes <strong>the number of orbitals</strong> and its orientation in space of a particular orbital. Consequently, its value 
+    depends on the orbital angular momentum quantum number ℓ. The possibles of m<sub>l</sub> value, is an interval ranging from -ℓ to +ℓ, so it can be zero,
+    a negative integer, or a positive integer. Unlike n, ℓ, and m<sub>l</sub>, the <em>spin magnetic quantum number</em> does not depend on another quantum number.
+    It designates <strong>the direction of electron spin</strong>, which value may have &#x207A;&#189; ( represented by &#x21BE; "spin up" ) or &#x207B;&#189;
+    ( represented by &#x21C3; "spin down" ).<br>
+    
+    So far, we have explanations of the four quantum members that model element's atom.
+</div> 
+<div>
+    <h3>Rule Knowns As Principles</h3>
+    There are principles that must be followed before writing electronic configuration, as described below:
+    <ol>
+        <li style="margin-bottom: 8px;"><h4 style="margin: 0; padding: 0;">Pauli Exclusion Principle or Quantum State</h4>
+            This principle states that:
+            <blockquote>
+                There are no two electrons in an atom <strong>can exist in the same quantum state</strong>.
+            </blockquote>            
+            Because the state of any electron is specified by the quantum numbers n, ℓ, m<sub>l</sub> and m<sub>s</sub>, the principle simply states 
+            that no two electron can have the <strong>same set of the four quantum members</strong>.
+        </li>
+        <li><h4 style="margin: 0; padding: 0;">Aufbauf Principle or Constructing Up Principle</h4>
+            It may be stated as:
+            <blockquote>
+                a maximum of <strong>two electrons</strong> are put into orbitals in the order of increasing orbital energy: the lowest-energy orbitals <strong>are filled 
+                before electrons</strong> are placed in higher-energy orbitals.
+            </blockquote>
+        </li>
+        <li><h4 style="margin: 0; padding: 0;">Klechkowski's Rule or Occupation of Orbital</h4>
+            is basically, stated that:
+            <blockquote>
+            <ol>
+            <li>Orbitals <strong>are filled in the order of increasing</strong> n+ℓ</li>
+            <li>Where two orbitals have the same value of n+ℓ, they <strong>are filled in order of increasing</strong> n</li>
+            </ol>
+            </blockquote>
+            One of the way to remember this rule is, to make a table like the one below and use vertical lines 
+            to determine which subshells correspond to each other.
+            <div  style="margin-left: auto; margin-right: auto; text-align: center;">
+            <img src="media/klechkovski_rule.svg" style="width: 30%;">
+            <div class="credit">
+                <span>Source: <a href="http://en.wikipedia.org/wiki/Aufbau_principle">wikipedia</a></span>
+            </div>
+            </div> 
+        </li>        
+        <li><h4 style="margin: 0; padding: 0;">Hund's Rule or Pairing Rule</h4>
+            can be summarized as follows:
+            <blockquote>
+                Pairing of electrons take place when all the available degenerate orbitals in a given subshell are filled with one electron each.
+            </blockquote>
+            Orbitals may have identical energy levels when they are of the same subshell (ℓ = 1, then m<sub>l</sub> are -1, 0, 1, which have similar energy). 
+            Then when assigning electrons in orbitals, each electron <strong>will first fill all the orbitals with similar energy</strong> (read: degenerate orbitals) 
+            before pairing with another electron.
+        </li>
+    </ol>
+</div>
+<div>
+    <h3>Noble Gas Notation</h3>
+    Noble Gas Notation slightly takes different form as follows:
+    <blockquote style="text-align: center;">
+    <strong style="font-size: 1.2em;">[closest noble gas element]</strong> [<strong>quantum number</strong>][<strong>orbital name</strong>]<sup>[<strong>number of electrons</strong>]</sup>
+    </blockquote>
+    This are samples of it, which is Noble Gas in group 18 (IUPAC), as described below:
+    <table class="noble-gas" style="margin-top: 16px;">
+        <thead>
+        <tr>
+            <th class="center">Element</th>
+            <th class="center">Symbol</th>
+            <th class="center">Atomic Number( Z )</th>
+            <th class="center">Electron Configuration</th>            
+            <th class="center">Noble Gas Notation</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="center">Helium</td>
+                <td class="center">He</td>
+                <td class="center">2</td>
+                <td class="center">1s&#x00B2;</td>
+                <td class="center">1s&#x00B2;</td>
+            </tr>
+            <tr>
+                <td class="center">Neon</td>
+                <td class="center">Ne</td>
+                <td class="center">10</td>
+                <td class="center">1s&#x00B2; 2s&#x00B2; 2p&#x2076;</td>
+                <td class="center">[He] 2s&#x00B2; 2p&#x2076;</td>
+            </tr>
+            <tr>
+                <td class="center">Argon</td>
+                <td class="center">Ar</td>
+                <td class="center">18</td>
+                <td class="center">1s&#x00B2; 2s&#x00B2; 2p&#x2076; 3s&#x00B2; 3p&#x2076;</td>
+                <td class="center">[Ne] 3s&#x00B2; 3p&#x2076;</td>
+            </tr>
+            <tr>
+                <td class="center">Krypton</td>
+                <td class="center">Kr</td>
+                <td class="center">36</td>
+                <td class="center">1s&#x00B2; 2s&#x00B2; 2p&#x2076; 3s&#x00B2; 3p&#x2076; 3d&#x00B9;&#x2070; 4s&#x00B2; 4p&#x2076;</td>
+                <td class="center">[Ar] 3d&#x00B9;&#x2070; 4s&#x00B2; 4p&#x2076;</td>
+            </tr>
+            <tr>
+                <td class="center">Xenon</td>
+                <td class="center">Xe</td>
+                <td class="center">54</td>
+                <td class="center">1s&#x00B2; 2s&#x00B2; 2p&#x2076; 3s&#x00B2; 3p&#x2076; 3d&#x00B9;&#x2070; 4s&#x00B2; 4p&#x2076; 4d&#x00B9;&#x2070; 5s&#x00B2; 5p&#x2076;</td>
+                <td class="center">[Kr] 4d&#x00B9;&#x2070; 5s&#x00B2; 5p&#x2076;</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="center">&nbsp;&#133;</td>                
+            </tr>
+            <tr>
+                <td colspan="5" class="center">and so on&#133;</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div>
+    <h3>Writing Electron Configuration</h3>
+    Electronic configuration takes form as follows:
+    <blockquote style="text-align: center;">
+    [<strong>quantum number</strong>][<strong>orbital name</strong>]<sup>[<strong>number of electrons</strong>]</sup>
+    </blockquote>
+    When writing the electron configuration, we first write the <strong>energy level</strong>( quantum number ) then the <strong>subshell</strong>( orbital number ) 
+    to be filled and the <strong>superscript</strong>, which is the number of electrons in that subshell. Using <strong>the rules from above</strong>, we can now start 
+    writing the electron configuration for all the elements in the periodic table.<br>
+    <br>
+    Consider the following element, Oxygen(O) with Z = 8:
+    <table class="electron-configuration" style="margin-top: 16px;">
+        <tbody>
+            <tr>
+                <td class="description">Element:</td>
+                <td class="content">Oxygen</td>
+            </tr>
+            <tr>
+                <td class="description">Symbol:</td>
+                <td class="content">O</td>
+            </tr>
+            <tr>
+                <td class="description">Z:</td>
+                <td class="content" style="color: #294270; font-weight: bold; font-size: 1.2em;">8</td>
+            </tr>
+
+            <tr>
+                <td class="description">Orbital Diagram:</td>
+                <td class="content"><span style="font-size: 2em;">&#x21C5;&nbsp;&nbsp;&#x21C5;&nbsp;&nbsp;&nbsp;&#x21C5;&#x21BE;&#x21BE;&nbsp;</span><br></td>
+            </tr>
+            <tr>
+                <td class="description">Orbital Model:</td>
+                <td class="content" style="color: #294270; font-weight: bold; font-size: 1.2em;">
+                &nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td class="description">Electronic Configuration:</td>
+                <td class="content" style="color: #294270; font-weight: bold; font-size: 1.2em;">
+                1s&#x00B2;&nbsp;&nbsp;&nbsp;&nbsp;2s&#x00B2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2p&#x2074;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+            <tr>
+                <td class="description">Noble Gas Notation:</td>
+                <td class="content" style="color: #294270; font-weight: bold; font-size: 1.2em;">
+                [He]&nbsp;2s&#x00B2;&nbsp;2p&#x2074;&nbsp;
+                </td>
+            </tr>
+        </tbody>
+    </table>        
+</div>
+<div style="margin-top: 32px;">
+    <h3>Checkio Quantum Task</h3>
+    Your task is to determine the <strong>atomic number</strong>, electronic configuration in <strong>noble gas notation</strong>, and its <strong>orbital model</strong>, 
+    which is <strong>0</strong> - for no electrons, <strong>1</strong> - for electron in degenerate orbital, and <strong>2</strong> - for electrons in full orbital, 
+    <strong>by its symbolic element. </strong>
+    Number of elements, limit to <strong>118 elements</strong> ( as of 01 September 2013 ). Task will use superscript for number of electrons notation, as described below:
+    
+    <table class="unicode-superscript" style="margin-top: 16px;">
+        <caption>Unicode superscript characters</caption>
+        <thead>
+            <tr>
+                <th>Unicode</th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>U+00Bx</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>x&#x00B2;</td>
+                <td>x&#x00B3;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>x&#x00B9;</td>
+            </tr>
+            <tr>
+                <td>U+207x</td>
+                <td>x&#x2070;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>x&#x2074;</td>
+                <td>x&#x2075;</td>
+                <td>x&#x2076;</td>
+                <td>x&#x2077;</td>
+                <td>x&#x2078;</td>
+                <td>x&#x2079;</td>
+            </tr>            
+        </tbody>
+    </table>
+    
+</div>
+<!--
+Unicode characters
+ 	0	1	2	3	4	5	6	7	8	9	A	B	C	D	E	F
+U+00Bx	 	x²	x³	 	 	 	 	 	x¹	 	 	 	 	 	 
+U+207x	x⁰	xⁱ	 	 	x⁴	x⁵	x⁶	x⁷	x⁸	x⁹	x⁺	x⁻	x⁼	x⁽	x⁾	xⁿ
+U+208x	x₀	x₁	x₂	x₃	x₄	x₅	x₆	x₇	x₈	x₉	x₊	x₋	x₌	x₍	x₎	 
+U+209x	xₐ	xₑ	xₒ	xₓ	xₔ	xₕ	xₖ	xₗ	xₘ	xₙ	xₚ	xₛ	xₜ	 	 	 
+Equivalent HTML markup
+0	1	2	3	4	5	6	7	8	9	A	B	C	D	E	F
+U+00Bx	 	 	x2	x3	 	 	 	 	 	x1	 	 	 	 	 	 
+U+207x	x0	xi	 	 	x4	x5	x6	x7	x8	x9	x+	x−	x=	x(	x)	xn
+U+208x	x0	x1	x2	x3	x4	x5	x6	x7	x8	x9	x+	x−	x=	x(	x)	 
+U+209x	xa	xe	xo	xx	xə	xh	xk	xl	xm	xn	xp	xs	xt	 	 	 
+
+-->
+
+<p><strong>Input data: </strong>a string, which is case insensitive, symbol of element</p>
+<p><strong>Output data: </strong>The output will be a list contains atomic number, configuration notation and orbital model.</p>
+<p><strong>Example:</strong></p>
+
+<pre class="brush: python">assert( checkio( 'H' ) == [ "1", u"1s¹", "1" ] ), "First Test - 1s¹"
+
+assert( checkio('Li') == [ "3", u"[He] 2s¹", "2 1" ] ), "Second Test - 1s² 2s¹"
+    
+assert( checkio('Al') == [ "13", u"[Ne] 3s² 3p¹", "2 2 222 2 100" ] ), "Third Test - 1s² 2s² 2p² 3s² 3p¹"
+</pre>
