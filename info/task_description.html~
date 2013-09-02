@@ -154,25 +154,25 @@ some already discovered elements and also to predict the properties of elements 
     <h3>Rule Knowns As Principles</h3><br>
     There are principles that must be followed before writing electronic configuration, as described below:<br>
     <ul style="margin-left: 10%;">
-        <li style="margin-bottom: 8px;"><h4 style="margin: 0; padding: 0;">Pauli Exclusion Principle or Quantum State</h4><br>
+        <li style="margin-top: 16px; margin-bottom: 8px;"><h4 style="margin: 0; padding: 0;">Pauli Exclusion Principle or Quantum State</h4>
             This principle states that:
-            <blockquote style="padding-left: 32px;">
+            <blockquote style="margin-top: 16px; margin-bottom: 16px; padding-left: 32px;">
                 There are no two electrons in an atom <strong>can exist in the same quantum state</strong>.
             </blockquote>            
             Because the state of any electron is specified by the quantum numbers n, ℓ, m<sub>l</sub> and m<sub>s</sub>, the principle simply states 
             that no two electron can have the <strong>same set of the four quantum members</strong>.
         </li>
-        <li><h4 style="margin: 0; padding: 0;">Aufbauf Principle or Constructing Up Principle</h4>
+        <li style="margin-top: 16px;"><h4 style="margin: 0; padding: 0;">Aufbauf Principle or Constructing Up Principle</h4>
             It may be stated as:
-            <blockquote style="padding-left: 32px;">
+            <blockquote style="margin-top: 16px; padding-left: 32px;">
                 a maximum of <strong>two electrons</strong> are put into orbitals in the order of increasing orbital energy: the lowest-energy orbitals <strong>are filled 
                 before electrons</strong> are placed in higher-energy orbitals.
             </blockquote>
         </li>
-        <li><h4 style="margin: 0; padding: 0;">Klechkowski's Rule or Occupation of Orbital</h4>
+        <li style="margin-top: 16px;"><h4 style="margin: 0; padding: 0;">Klechkowski's Rule or Occupation of Orbital</h4>
             is basically, stated that:
             <blockquote style="padding-left: 32px;">
-            <ul>
+            <ul style="margin-top: 16px;">
             <li>Orbitals <strong>are filled in the order of increasing</strong> n+ℓ</li>
             <li>Where two orbitals have the same value of n+ℓ, they <strong>are filled in order of increasing</strong> n</li>
             </ul>
@@ -186,9 +186,9 @@ some already discovered elements and also to predict the properties of elements 
             </div>
             </div> 
         </li>        
-        <li><h4 style="margin: 0; padding: 0;">Hund's Rule or Pairing Rule</h4>
+        <li style="margin-top: 16px;"><h4 style="margin: 0; padding: 0;">Hund's Rule or Pairing Rule</h4>
             can be summarized as follows:
-            <blockquote>
+            <blockquote style="font-style: italic; margin-top: 16px; margin-bottom: 16px; padding-left: 32px;">
                 Pairing of electrons take place when all the available degenerate orbitals in a given subshell are filled with one electron each.
             </blockquote>
             Orbitals may have identical energy levels when they are of the same subshell (ℓ = 1, then m<sub>l</sub> are -1, 0, 1, which have similar energy). 
