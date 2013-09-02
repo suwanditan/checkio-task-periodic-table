@@ -263,7 +263,7 @@ some already discovered elements and also to predict the properties of elements 
 <div>
     <h3>Writing Electron Configuration</h3>
     Electronic configuration takes form as follows:<br>
-    <blockquote style="text-align: center;">
+    <blockquote style="text-align: center; margin-top: 16px;">
     [<strong>quantum number</strong>][<strong>orbital name</strong>]<sup>[<strong>number of electrons</strong>]</sup>
     </blockquote><br>
     When writing the electron configuration, we first write the <strong>energy level</strong>( quantum number ) then the <strong>subshell</strong>( orbital number ) 
