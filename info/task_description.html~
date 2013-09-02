@@ -63,7 +63,7 @@ by 1900.</p>
 some already discovered elements and also to predict the properties of elements yet to be discovered. This work, as we know it as, the <strong>Periodic Table of Elements</strong>.
 </p>
 <div>
-    <img src="media/periodic_table.svg" style="width: 99%;">
+    <img title="Periodic Table" src="{{ MEDIA }}periodic_table.svg" style="width: 99%;">
     <div class="credit">
     <span>Source: <a href="http://en.wikipedia.org/wiki/Periodic_table">wikipedia</a></span>
     </div>
