@@ -261,8 +261,8 @@ some already discovered elements and also to predict the properties of elements 
     </table>
 </div>
 <div>
-    <h3>Writing Electron Configuration</h3>
-    Electronic configuration takes form as follows:<br>
+    <h3>Writing Electron Configuration</h3><br>
+    Electron configuration takes form as follows:<br>
     <blockquote style="text-align: center; margin-top: 16px;">
     [<strong>quantum number</strong>][<strong>orbital name</strong>]<sup>[<strong>number of electrons</strong>]</sup>
     </blockquote><br>
@@ -313,7 +313,7 @@ some already discovered elements and also to predict the properties of elements 
 </div>
 <div style="margin-top: 32px;">
     <h3>Checkio Quantum Task</h3><br>
-    Your task is to determine the <strong>atomic number</strong>, electronic configuration in <strong>noble gas notation</strong>, and its <strong>orbital model</strong>, 
+    Your task is to determine the <strong>atomic number</strong>, electron configuration in <strong>noble gas notation</strong>, and its <strong>orbital model</strong>, 
     which is <strong>0</strong> - for no electrons, <strong>1</strong> - for electron in degenerate orbital, and <strong>2</strong> - for electrons in full orbital, 
     <strong>by its symbolic element. </strong>
     Number of elements, limit to <strong>118 elements</strong> ( as of 01 September 2013 ). Task will use superscript for number of electrons notation, as described below:
