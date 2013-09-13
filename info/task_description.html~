@@ -312,7 +312,7 @@ some already discovered elements and also to predict the properties of elements 
     </table>        
 </div>
 <div style="margin-top: 32px;">
-    <h3>CheckiO Quantum Task</h3><br>
+    <h3>Checkio Quantum Task</h3><br>
     Your task is to determine the <strong>atomic number</strong>, electron configuration in <strong>noble gas notation</strong>, and its <strong>orbital model</strong>, 
     which is <strong>0</strong> - for no electrons, <strong>1</strong> - for electron in degenerate orbital, and <strong>2</strong> - for electrons in full orbital, 
     <strong>by its symbolic element. </strong>
